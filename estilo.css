@@ -70,6 +70,19 @@
   cursor: pointer;
 }
 
+.hud {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+}
+
 /* Animação para o movimento do cano */
 @keyframes animacoes-cano {
   from {
