@@ -10,7 +10,6 @@ let marcouPonto = false;
 let morreu = false;
 let pulando = false;
 
-document.addEventListener('keyup', fazerMarioPular);
 document.addEventListener('touchstart', fazerMarioPular);
 
 function fazerMarioPular() {
